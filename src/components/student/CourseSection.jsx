@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const CourseSection = () => {
+const CoursesSection = () => {
   return (
     <div>
-    <h1>Course Section</h1>
+      <h2>Learn from the best</h2>
+      <p>Discover our top-rated courses across various categories. From coding and design to business and wellness, our courses are crafted to deliver results.</p>
+      <Link to='/course-list'>Show all courses</Link>
     </div>
-  )
-}
+  );
+};
 
-export default CourseSection
+export default CoursesSection;
